@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Food ranking</title>
+  <link rel="stylesheet" href="http://localhost:3000/index.css" type="text/css">
+</head>
+<body>
+  <div class="main-container">
+      <div class="container">
+          <div class="left-div">
+              <h1>FOOD RANKING</h1>
+              <div id = "card-container">
+              </div>
+          </div>
+          <div class="right-div">
+            <form id="form-field">
+              <label for="foodname" class="labels"><b>Food Name</b></label></br>
+              <input type="text" id="foodname" name="foodname" class="inputs">
+              </br>
+              </br>
+              <label for="description"><b>Description</b></label></br>
+              <textarea name = "description" id = "description" class = "inputs"></textarea>
+              </br>
+              </br>
+              <label for="imglink" class="labels"><b>Image Link</b></label></br>
+              <input type="text" id="imglink" name="imglink" class="inputs">
+              </br>
+              </br>
+              <label for="rank"><b>Rank</b></label></br>
+              <input type="number" id="rank" name="rank" class="inputs">
+              </br>
+              </br>
+              <button type="submit" id="submit-button">SUBMIT</button>
+            </form>
+          </div>
+      </div>
+  </div>
+  <script type="text/javascript" src="http://localhost:3000/form.js"></script>
+</body>
+</html>

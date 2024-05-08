@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    background-color: white;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.left-div {
+    flex: 4;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+
+.right-div {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.labels {
+    font-size: 20px; /* Set label font size */
+    margin-bottom: 5px; /* Add margin between labels */
+}
+
+.inputs {
+    font-size: 20px; /* Set input font size */
+    padding: 5px; /* Add padding to inputs */
+    margin-bottom: 10px; /* Add margin between inputs */
+    width: 100%; /* Make inputs full width */
+}
+
+textarea.inputs {
+    height: 100px; /* Set textarea height */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.food-card {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 290px;
+}
+
+.food-card p {
+    flex: 1; /* Allow paragraphs to grow vertically */
+    max-width: 100%; /* Limit the width of the paragraphs to prevent overflow */
+    overflow-wrap: break-word;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items onto the next line */
+    flex-direction: row;
+    gap: 35px;
+}
+
+.food-name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.imgdiv {
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    overflow: hidden;
+    position: relative;
+}
+
+.imgsize {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
